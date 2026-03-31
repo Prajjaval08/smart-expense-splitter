@@ -144,7 +144,6 @@ const generateRecommendations = (group: Group): Recommendation[] => {
 
   // Analyze spending patterns and provide recommendations
   const totalSpent = totalExpenses(group)
-  const avgExpense = totalSpent / group.expenses.length
   const membersSet = new Set(group.expenses.map((e) => e.paidBy))
 
   // Recommendation: High spender alert
@@ -211,7 +210,6 @@ const App = () => {
   let showSignin = false
   let showOtpModal = false
   let showSigninChoice = false
-  let otpPhone = ''
   let lastSentOtp: { phone: string; code: string; expires: number } | null = null
   let currentSplitType: ExpenseSplitType = 'equal'
   let quoteRotatorStarted = false
