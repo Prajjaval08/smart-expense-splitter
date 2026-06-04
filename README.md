@@ -3,7 +3,7 @@
 > **No cap,** splitting expenses with your crew just got easier. No more awkward conversations about who owes who. It's giving financial peace vibes ✨
 
 ---
-
+LIVE LINK https://smart-expense-splitter-34wp.vercel.app/
 ## 🎯 What's This About?
 
 You know that moment when you're on a trip with friends and someone paid for the hotel, someone else got dinner, and now nobody remembers who owes what? **Yeah, this app fixes that.**
